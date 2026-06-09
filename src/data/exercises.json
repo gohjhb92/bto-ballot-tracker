@@ -1,0 +1,106 @@
+{
+  "exercises": [
+    {
+      "id": "2020-02", "label": "Feb 2020", "year": 2020,
+      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 }, "3-room": { "firstTimer": 3.1, "secondTimer": 15.2 } }, "non-mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 3.4 } } }
+    },
+    {
+      "id": "2020-05", "label": "May 2020", "year": 2020,
+      "summary": { "mature": { "4-room": { "firstTimer": 3.8, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.8, "secondTimer": 13.3 } }, "non-mature": { "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "3-room": { "firstTimer": 1.2, "secondTimer": 1.4 }, "5-room": { "firstTimer": 1.9, "secondTimer": 2.8 } } }
+    },
+    {
+      "id": "2020-08", "label": "Aug 2020", "year": 2020,
+      "summary": { "mature": { "4-room": { "firstTimer": 5.1, "secondTimer": 28.4 }, "3-room": { "firstTimer": 3.8, "secondTimer": 17.0 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.8 } } }
+    },
+    {
+      "id": "2020-11", "label": "Nov 2020", "year": 2020,
+      "summary": { "mature": { "4-room": { "firstTimer": 4.8, "secondTimer": 26.2 }, "3-room": { "firstTimer": 3.6, "secondTimer": 15.7 } }, "non-mature": { "4-room": { "firstTimer": 2.0, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.5, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.8 } } }
+    },
+    {
+      "id": "2021-02", "label": "Feb 2021", "year": 2021,
+      "summary": { "mature": { "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 }, "3-room": { "firstTimer": 4.0, "secondTimer": 18.8 }, "5-room": { "firstTimer": 6.4, "secondTimer": 37.7 } }, "non-mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 3.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 2.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 4.7 }, "2-room Flexi": { "firstTimer": 0.5, "singles": 7.5 } } }
+    },
+    {
+      "id": "2021-05", "label": "May 2021", "year": 2021,
+      "summary": { "mature": { "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 }, "3-room": { "firstTimer": 4.7, "secondTimer": 22.9 }, "5-room": { "firstTimer": 7.4, "secondTimer": 45.8 } }, "non-mature": { "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 }, "3-room": { "firstTimer": 2.6, "secondTimer": 2.9 }, "5-room": { "firstTimer": 4.2, "secondTimer": 5.8 }, "2-room Flexi": { "firstTimer": 0.7, "singles": 8.4 } } }
+    },
+    {
+      "id": "2021-08", "label": "Aug 2021", "year": 2021,
+      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 35.1 }, "3-room": { "firstTimer": 4.4, "secondTimer": 21.1 }, "5-room": { "firstTimer": 7.0, "secondTimer": 42.1 } }, "non-mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 }, "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 }, "5-room": { "firstTimer": 3.8, "secondTimer": 5.4 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.9 } } }
+    },
+    {
+      "id": "2021-11", "label": "Nov 2021", "year": 2021,
+      "summary": { "mature": { "4-room": { "firstTimer": 7.2, "secondTimer": 42.3 }, "3-room": { "firstTimer": 5.4, "secondTimer": 25.4 }, "5-room": { "firstTimer": 8.6, "secondTimer": 51.0 }, "2-room Flexi": { "firstTimer": 1.8, "singles": 15.8 } }, "non-mature": { "4-room": { "firstTimer": 3.0, "secondTimer": 4.2 }, "3-room": { "firstTimer": 2.3, "secondTimer": 2.5 }, "5-room": { "firstTimer": 3.6, "secondTimer": 5.0 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.2 } } }
+    },
+    {
+      "id": "2022-02", "label": "Feb 2022", "year": 2022,
+      "summary": { "mature": { "4-room": { "firstTimer": 3.9, "secondTimer": 28.4 }, "3-room": { "firstTimer": 2.9, "secondTimer": 17.0 }, "5-room": { "firstTimer": 4.7, "secondTimer": 34.1 } }, "non-mature": { "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "3-room": { "firstTimer": 1.7, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.6, "secondTimer": 3.7 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 6.1 } } }
+    },
+    {
+      "id": "2022-05", "label": "May 2022", "year": 2022,
+      "summary": { "mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.4, "secondTimer": 13.3 }, "5-room": { "firstTimer": 3.8, "secondTimer": 26.5 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.6 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.2 } } }
+    },
+    {
+      "id": "2022-08", "label": "Aug 2022", "year": 2022,
+      "summary": { "mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 18.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 11.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 22.7 } }, "non-mature": { "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 }, "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 4.5 } } }
+    },
+    {
+      "id": "2022-11", "label": "Nov 2022", "year": 2022,
+      "summary": { "mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 15.4 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.2 }, "5-room": { "firstTimer": 2.2, "secondTimer": 18.5 } }, "non-mature": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 3.8 } }, "notes": "Lowest rates in 3 years due to record 10,000-unit supply" }
+    },
+    {
+      "id": "2023-02", "label": "Feb 2023", "year": 2023,
+      "summary": { "mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 19.4 } }, "non-mature": { "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 }, "3-room": { "firstTimer": 1.0, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 4.1 } } }
+    },
+    {
+      "id": "2023-05", "label": "May 2023", "year": 2023,
+      "summary": { "mature": { "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 }, "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "5-room": { "firstTimer": 5.4, "secondTimer": 39.4 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.0 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.8 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 6.8 } }, "notes": "High rate exercise, highest since mid-2021" }
+    },
+    {
+      "id": "2023-08", "label": "Aug 2023", "year": 2023,
+      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 }, "3-room": { "firstTimer": 4.4, "secondTimer": 23.0 }, "5-room": { "firstTimer": 7.0, "secondTimer": 46.1 } }, "non-mature": { "4-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "3-room": { "firstTimer": 1.8, "secondTimer": 2.0 }, "5-room": { "firstTimer": 2.9, "secondTimer": 4.1 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 7.4 } }, "notes": "Serangoon mature 4-room: 9.4-13.8x" }
+    },
+    {
+      "id": "2023-11", "label": "Nov 2023", "year": 2023,
+      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 }, "3-room": { "firstTimer": 3.2, "secondTimer": 17.5 }, "5-room": { "firstTimer": 5.0, "secondTimer": 34.9 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.5 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.0 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.9 } } }
+    },
+    {
+      "id": "2024-02", "label": "Feb 2024", "year": 2024,
+      "summary": { "mature": { "4-room": { "firstTimer": 3.4, "secondTimer": 52.8 }, "3-room": { "firstTimer": 2.1, "secondTimer": 24.0 }, "5-room": { "firstTimer": 4.1, "secondTimer": 63.4 }, "2-room Flexi": { "firstTimer": 2.9, "singles": 12.0 } }, "non-mature": { "4-room": { "firstTimer": 1.5, "secondTimer": 2.1 }, "3-room": { "firstTimer": 0.6, "secondTimer": 1.0 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "2-room Flexi": { "firstTimer": 0.1, "singles": 9.9 } } },
+      "towns": [
+        { "town": "Queenstown", "estateType": "mature", "flatTypes": { "4-room": { "firstTimer": 3.4, "secondTimer": 73.8 }, "3-room": { "firstTimer": 2.1, "secondTimer": 45.2 } } },
+        { "town": "Bedok", "estateType": "mature", "flatTypes": { "4-room": { "firstTimer": 2.9, "secondTimer": 42.1 }, "5-room": { "firstTimer": 3.8, "secondTimer": 47.2 } } },
+        { "town": "Hougang", "estateType": "mature", "flatTypes": { "2-room Flexi": { "firstTimer": 1.2, "singles": 16.3 } } },
+        { "town": "Woodlands", "estateType": "non-mature", "flatTypes": { "3-room": { "firstTimer": 0.6, "secondTimer": 0.8 }, "4-room": { "firstTimer": 1.1, "secondTimer": 1.4 } } },
+        { "town": "Yishun", "estateType": "non-mature", "flatTypes": { "3-room": { "firstTimer": 1.7, "secondTimer": 2.1 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.4 } } },
+        { "town": "Punggol", "estateType": "non-mature", "flatTypes": { "4-room": { "firstTimer": 0.0, "secondTimer": 0.1 } } },
+        { "town": "Choa Chu Kang", "estateType": "non-mature", "flatTypes": { "2-room Flexi": { "firstTimer": 1.1, "singles": 9.9 } } }
+      ]
+    },
+    {
+      "id": "2024-06", "label": "Jun 2024", "year": 2024,
+      "summary": { "mature": { "4-room": { "firstTimer": 6.6, "secondTimer": 72.8 }, "3-room": { "firstTimer": 5.0, "secondTimer": 43.7 }, "5-room": { "firstTimer": 8.5, "secondTimer": 87.4 }, "2-room Flexi": { "firstTimer": 7.8, "singles": 16.0 } }, "non-mature": { "4-room": { "firstTimer": 2.2, "secondTimer": 3.8 }, "3-room": { "firstTimer": 1.7, "secondTimer": 2.3 }, "5-room": { "firstTimer": 2.6, "secondTimer": 4.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 6.4 } } },
+      "towns": [
+        { "town": "Queenstown", "estateType": "mature", "flatTypes": { "4-room": { "firstTimer": 6.6, "secondTimer": 72.8 } } },
+        { "town": "Tampines", "estateType": "mature", "flatTypes": { "4-room": { "firstTimer": 8.2, "secondTimer": 65.0 }, "5-room": { "firstTimer": 8.5, "secondTimer": 87.4 }, "2-room Flexi": { "firstTimer": 0.4, "seniors": 7.8, "singles": 9.7 } } },
+        { "town": "Yishun", "estateType": "non-mature", "flatTypes": { "2-room Flexi": { "singles": 7.0 }, "3-room": { "firstTimer": 1.7, "secondTimer": 2.2 }, "4-room": { "firstTimer": 1.4, "secondTimer": 1.8 } } },
+        { "town": "Jurong East", "estateType": "non-mature", "flatTypes": { "2-room Flexi": { "singles": 6.4 }, "4-room": { "firstTimer": 2.0, "secondTimer": 3.2 } } },
+        { "town": "Woodlands", "estateType": "non-mature", "flatTypes": { "2-room Flexi": { "seniors": 1.6 }, "4-room": { "firstTimer": 1.1, "secondTimer": 1.6 } } },
+        { "town": "Kallang/Whampoa", "estateType": "mature", "flatTypes": { "4-room": { "firstTimer": 5.8, "secondTimer": 58.2 } } }
+      ],
+      "notes": "Overall 3.8x — highest since May 2023. Last exercise under old mature/non-mature model before S/P/P classification."
+    },
+    {
+      "id": "2024-10", "label": "Oct 2024", "year": 2024,
+      "classification": "SPP",
+      "summary": { "standard": { "4-room": { "firstTimer": 2.8, "secondTimer": 24.5 }, "3-room": { "firstTimer": 2.1, "secondTimer": 12.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 29.4 }, "2-room Flexi": { "firstTimer": 1.4, "singles": 8.4 } }, "plus": { "4-room": { "firstTimer": 4.2, "secondTimer": 38.8 }, "5-room": { "firstTimer": 5.1, "secondTimer": 44.2 } }, "prime": { "4-room": { "firstTimer": 5.8, "secondTimer": 65.1 } } },
+      "notes": "First exercise under Standard/Plus/Prime classification. Standard ≈ old non-mature, Plus ≈ old mature with restrictions, Prime = most central with tightest resale rules."
+    },
+    {
+      "id": "2025-02", "label": "Feb 2025", "year": 2025,
+      "classification": "SPP",
+      "summary": { "standard": { "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 }, "3-room": { "firstTimer": 0.7, "secondTimer": 0.8 }, "5-room": { "firstTimer": 1.7, "secondTimer": 14.8 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 4.8 } }, "plus": { "4-room": { "firstTimer": 1.9, "secondTimer": 20.4 } }, "prime": { "4-room": { "firstTimer": 2.8, "secondTimer": 38.2 } } },
+      "notes": "Rates significantly lower. Median first-timer rate ~1.0 across standard estates."
+    }
+  ]
+}
