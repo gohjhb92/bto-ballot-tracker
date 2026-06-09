@@ -7,8 +7,8 @@ import { getExerciseSummaryStats } from "@/lib/data";
 import { competitionLevel } from "@/lib/probability";
 import { COMPETITION_COLORS, ESTATE_LABELS, formatRate } from "@/lib/utils";
 import type { BtoExercise } from "@/lib/types";
-import type { TownAverage } from "@/components/BtoHeatMap";
-import { buildTownAverages } from "@/components/BtoHeatMap";
+import type { TownAverage } from "@/lib/heatmapUtils";
+import { buildTownAverages } from "@/lib/heatmapUtils";
 
 // Leaflet requires browser APIs — load client-side only
 const BtoMap = dynamic(() => import("@/components/BtoMap"), {
