@@ -9,6 +9,7 @@ import TownComparison from "@/components/TownComparison";
 import CumulativeTable from "@/components/CumulativeTable";
 import type { ProfileSelection } from "@/lib/types";
 import { allExercises } from "@/lib/data";
+import { ESTATE_LABELS, APPLICANT_LABELS } from "@/lib/utils";
 import {
   recentAverageRate,
   oddsPerTry,
@@ -97,7 +98,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <TrendChart
               data={trendData}
-              title={`${profile.flatType} · ${profile.estateType} · ${profile.applicantType}`}
+              title={`${profile.flatType} · ${ESTATE_LABELS[profile.estateType] ?? profile.estateType} · ${APPLICANT_LABELS[profile.applicantType] ?? profile.applicantType}`}
             />
             <TownComparison data={townData} />
           </div>
