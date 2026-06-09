@@ -137,7 +137,14 @@ export default function BtoMap({ exercise, isSummary }: Props) {
               }}
             >
               <Popup minWidth={220}>
-                <div style={{ fontFamily: "system-ui, sans-serif" }}>
+                {/* Dark wrapper fills popup regardless of Leaflet's default white bg */}
+                <div style={{
+                  fontFamily: "system-ui, sans-serif",
+                  background: "#0f172a",
+                  margin: "-13px -20px",
+                  padding: "14px 16px",
+                  borderRadius: "11px",
+                }}>
                   {/* Header */}
                   <div style={{ marginBottom: 8 }}>
                     <div style={{ fontWeight: 700, fontSize: 14, color: "#f1f5f9" }}>
@@ -192,7 +199,7 @@ export default function BtoMap({ exercise, isSummary }: Props) {
 
                   {/* Footer */}
                   {level && project.primaryRate != null && (
-                    <div style={{ marginTop: 8, paddingTop: 6, borderTop: "1px solid #1e293b", fontSize: 11 }}>
+                    <div style={{ marginTop: 8, paddingTop: 6, borderTop: "1px solid #1e3a5f", fontSize: 11 }}>
                       <span style={{ color }}>● {COMPETITION_LABEL[level]}</span>
                       <span style={{ color: "#64748b", marginLeft: 6 }}>
                         avg {formatRate(project.primaryRate)} (1st-timer)

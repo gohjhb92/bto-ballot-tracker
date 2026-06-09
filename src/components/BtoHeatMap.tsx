@@ -200,7 +200,15 @@ export default function BtoHeatMap({ exercises, flatType, applicantType }: Props
               }}
             >
               <Popup minWidth={230}>
-                <div style={{ fontFamily: "system-ui, sans-serif" }}>
+                {/* Dark wrapper — fills the popup regardless of Leaflet's default white bg */}
+                <div style={{
+                  fontFamily: "system-ui, sans-serif",
+                  background: "#0f172a",
+                  margin: "-13px -20px",
+                  padding: "14px 16px",
+                  borderRadius: "11px",
+                  minWidth: 220,
+                }}>
                   {/* Header */}
                   <div style={{ marginBottom: 10 }}>
                     <div
@@ -237,13 +245,13 @@ export default function BtoHeatMap({ exercises, flatType, applicantType }: Props
                       gap: 6,
                       marginBottom: 10,
                       padding: "8px 0",
-                      borderTop: "1px solid #334155",
-                      borderBottom: "1px solid #334155",
+                      borderTop: "1px solid #1e3a5f",
+                      borderBottom: "1px solid #1e3a5f",
                     }}
                   >
                     {[
-                      { label: "Avg", val: t.avgRate, color },
-                      { label: "Best", val: t.minRate, color: COMPETITION_COLORS[competitionLevel(t.minRate)] },
+                      { label: "Avg",   val: t.avgRate, color },
+                      { label: "Best",  val: t.minRate, color: COMPETITION_COLORS[competitionLevel(t.minRate)] },
                       { label: "Worst", val: t.maxRate, color: COMPETITION_COLORS[competitionLevel(t.maxRate)] },
                     ].map(({ label, val, color: c }) => (
                       <div key={label} style={{ textAlign: "center" }}>
@@ -266,13 +274,7 @@ export default function BtoHeatMap({ exercises, flatType, applicantType }: Props
                       fontSize: 11,
                     }}
                   >
-                    <span
-                      style={{
-                        fontSize: 14,
-                        fontWeight: 700,
-                        color: trend.color,
-                      }}
-                    >
+                    <span style={{ fontSize: 14, fontWeight: 700, color: trend.color }}>
                       {trend.icon}
                     </span>
                     <span style={{ color: "#94a3b8" }}>{trend.label}</span>
@@ -283,7 +285,7 @@ export default function BtoHeatMap({ exercises, flatType, applicantType }: Props
                     style={{
                       marginTop: 8,
                       paddingTop: 6,
-                      borderTop: "1px solid #1e293b",
+                      borderTop: "1px solid #1e3a5f",
                       fontSize: 11,
                     }}
                   >
