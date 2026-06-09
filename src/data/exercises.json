@@ -2,67 +2,191 @@
   "exercises": [
     {
       "id": "2020-02", "label": "Feb 2020", "year": 2020,
-      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 }, "3-room": { "firstTimer": 3.1, "secondTimer": 15.2 } }, "non-mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 3.4 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 }, "3-room": { "firstTimer": 3.1, "secondTimer": 15.2 } }, "non-mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 3.4 } } },
+      "towns": [
+        { "town": "Ang Mo Kio", "projectName": "Teck Ghee Parcview", "estateType": "mature", "lat": 1.3618, "lng": 103.8519, "flatTypes": { "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 }, "3-room": { "firstTimer": 3.1, "secondTimer": 15.2 } } },
+        { "town": "Bishan", "projectName": "Bishan North", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 } } },
+        { "town": "Toa Payoh", "projectName": "Bartley Beacon", "estateType": "mature", "lat": 1.3343, "lng": 103.8474, "flatTypes": { "3-room": { "firstTimer": 3.1, "secondTimer": 15.2 }, "4-room": { "firstTimer": 4.2, "secondTimer": 25.3 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok West Ave 6", "estateType": "non-mature", "lat": 1.3488, "lng": 103.7513, "flatTypes": { "4-room": { "firstTimer": 1.9, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.7 } } },
+        { "town": "Tengah", "projectName": "Tengah Garden Walk", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 1.9, "secondTimer": 2.8 }, "5-room": { "firstTimer": 2.3, "secondTimer": 3.4 } } }
+      ]
     },
     {
       "id": "2020-05", "label": "May 2020", "year": 2020,
-      "summary": { "mature": { "4-room": { "firstTimer": 3.8, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.8, "secondTimer": 13.3 } }, "non-mature": { "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "3-room": { "firstTimer": 1.2, "secondTimer": 1.4 }, "5-room": { "firstTimer": 1.9, "secondTimer": 2.8 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 3.8, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.8, "secondTimer": 13.3 } }, "non-mature": { "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "3-room": { "firstTimer": 1.2, "secondTimer": 1.4 }, "5-room": { "firstTimer": 1.9, "secondTimer": 2.8 } } },
+      "towns": [
+        { "town": "Toa Payoh", "projectName": "Bidadari Greenview", "estateType": "mature", "lat": 1.3390, "lng": 103.8694, "flatTypes": { "3-room": { "firstTimer": 2.8, "secondTimer": 13.3 }, "4-room": { "firstTimer": 3.8, "secondTimer": 22.1 } } },
+        { "town": "Ang Mo Kio", "projectName": "Kebun Baru Edge", "estateType": "mature", "lat": 1.3813, "lng": 103.8382, "flatTypes": { "4-room": { "firstTimer": 3.8, "secondTimer": 22.1 } } },
+        { "town": "Tengah", "projectName": "Plantation Grange", "estateType": "non-mature", "lat": 1.3714, "lng": 103.7388, "flatTypes": { "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "5-room": { "firstTimer": 1.9, "secondTimer": 2.8 } } },
+        { "town": "Woodlands", "projectName": "Woodlands Rockwood", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 1.2, "secondTimer": 1.4 }, "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 } } },
+        { "town": "Yishun", "projectName": "Yishun Greenwalk", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "4-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "5-room": { "firstTimer": 1.9, "secondTimer": 2.8 } } }
+      ]
     },
     {
       "id": "2020-08", "label": "Aug 2020", "year": 2020,
-      "summary": { "mature": { "4-room": { "firstTimer": 5.1, "secondTimer": 28.4 }, "3-room": { "firstTimer": 3.8, "secondTimer": 17.0 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.8 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 5.1, "secondTimer": 28.4 }, "3-room": { "firstTimer": 3.8, "secondTimer": 17.0 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.8 } } },
+      "towns": [
+        { "town": "Bishan", "projectName": "Bishan Towers", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 5.1, "secondTimer": 28.4 } } },
+        { "town": "Toa Payoh", "projectName": "Bartley GreenRise", "estateType": "mature", "lat": 1.3343, "lng": 103.8474, "flatTypes": { "3-room": { "firstTimer": 3.8, "secondTimer": 17.0 }, "4-room": { "firstTimer": 5.1, "secondTimer": 28.4 } } },
+        { "town": "Sembawang", "projectName": "Sun Natura", "estateType": "non-mature", "lat": 1.4491, "lng": 103.8200, "flatTypes": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.8 } } },
+        { "town": "Tengah", "projectName": "Garden Vines", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.8 } } },
+        { "town": "Woodlands", "projectName": "Woodlands Glen", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 1.6, "secondTimer": 1.9 }, "4-room": { "firstTimer": 2.1, "secondTimer": 3.2 } } }
+      ]
     },
     {
       "id": "2020-11", "label": "Nov 2020", "year": 2020,
-      "summary": { "mature": { "4-room": { "firstTimer": 4.8, "secondTimer": 26.2 }, "3-room": { "firstTimer": 3.6, "secondTimer": 15.7 } }, "non-mature": { "4-room": { "firstTimer": 2.0, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.5, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.8 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 4.8, "secondTimer": 26.2 }, "3-room": { "firstTimer": 3.6, "secondTimer": 15.7 } }, "non-mature": { "4-room": { "firstTimer": 2.0, "secondTimer": 2.8 }, "3-room": { "firstTimer": 1.5, "secondTimer": 1.7 }, "5-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.8 } } },
+      "towns": [
+        { "town": "Ang Mo Kio", "projectName": "Ang Mo Kio Court", "estateType": "mature", "lat": 1.3691, "lng": 103.8454, "flatTypes": { "3-room": { "firstTimer": 3.6, "secondTimer": 15.7 }, "4-room": { "firstTimer": 4.8, "secondTimer": 26.2 } } },
+        { "town": "Bishan", "projectName": "Bishan Ridge", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 4.8, "secondTimer": 26.2 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Crescent", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 1.5, "secondTimer": 1.7 }, "4-room": { "firstTimer": 2.0, "secondTimer": 2.8 } } },
+        { "town": "Tengah", "projectName": "Parc Clover", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 2.0, "secondTimer": 2.8 }, "5-room": { "firstTimer": 2.4, "secondTimer": 3.4 } } },
+        { "town": "Yishun", "projectName": "Yishun Natura", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "2-room Flexi": { "firstTimer": 0.3, "singles": 5.8 }, "3-room": { "firstTimer": 1.5, "secondTimer": 1.7 } } }
+      ]
     },
     {
       "id": "2021-02", "label": "Feb 2021", "year": 2021,
-      "summary": { "mature": { "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 }, "3-room": { "firstTimer": 4.0, "secondTimer": 18.8 }, "5-room": { "firstTimer": 6.4, "secondTimer": 37.7 } }, "non-mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 3.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 2.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 4.7 }, "2-room Flexi": { "firstTimer": 0.5, "singles": 7.5 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 }, "3-room": { "firstTimer": 4.0, "secondTimer": 18.8 }, "5-room": { "firstTimer": 6.4, "secondTimer": 37.7 } }, "non-mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 3.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 2.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 4.7 }, "2-room Flexi": { "firstTimer": 0.5, "singles": 7.5 } } },
+      "towns": [
+        { "town": "Kallang/Whampoa", "projectName": "Kallang Breeze", "estateType": "mature", "lat": 1.3117, "lng": 103.8643, "flatTypes": { "3-room": { "firstTimer": 4.0, "secondTimer": 18.8 }, "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 } } },
+        { "town": "Tampines", "projectName": "Tampines GreenEmerald", "estateType": "mature", "lat": 1.3496, "lng": 103.9568, "flatTypes": { "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 }, "5-room": { "firstTimer": 6.4, "secondTimer": 37.7 } } },
+        { "town": "Toa Payoh", "projectName": "Toa Payoh Ridge", "estateType": "mature", "lat": 1.3343, "lng": 103.8474, "flatTypes": { "3-room": { "firstTimer": 4.0, "secondTimer": 18.8 }, "4-room": { "firstTimer": 5.3, "secondTimer": 31.4 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok West Ave 8", "estateType": "non-mature", "lat": 1.3488, "lng": 103.7513, "flatTypes": { "3-room": { "firstTimer": 2.1, "secondTimer": 2.3 }, "4-room": { "firstTimer": 2.8, "secondTimer": 3.9 } } },
+        { "town": "Tengah", "projectName": "Garden Waterfall", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "2-room Flexi": { "firstTimer": 0.5, "singles": 7.5 }, "4-room": { "firstTimer": 2.8, "secondTimer": 3.9 }, "5-room": { "firstTimer": 3.4, "secondTimer": 4.7 } } }
+      ]
     },
     {
       "id": "2021-05", "label": "May 2021", "year": 2021,
-      "summary": { "mature": { "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 }, "3-room": { "firstTimer": 4.7, "secondTimer": 22.9 }, "5-room": { "firstTimer": 7.4, "secondTimer": 45.8 } }, "non-mature": { "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 }, "3-room": { "firstTimer": 2.6, "secondTimer": 2.9 }, "5-room": { "firstTimer": 4.2, "secondTimer": 5.8 }, "2-room Flexi": { "firstTimer": 0.7, "singles": 8.4 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 }, "3-room": { "firstTimer": 4.7, "secondTimer": 22.9 }, "5-room": { "firstTimer": 7.4, "secondTimer": 45.8 } }, "non-mature": { "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 }, "3-room": { "firstTimer": 2.6, "secondTimer": 2.9 }, "5-room": { "firstTimer": 4.2, "secondTimer": 5.8 }, "2-room Flexi": { "firstTimer": 0.7, "singles": 8.4 } } },
+      "towns": [
+        { "town": "Geylang", "projectName": "Geylang Bahru Edge", "estateType": "mature", "lat": 1.3202, "lng": 103.8820, "flatTypes": { "3-room": { "firstTimer": 4.7, "secondTimer": 22.9 }, "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 } } },
+        { "town": "Hougang", "projectName": "Hougang Olive", "estateType": "mature", "lat": 1.3721, "lng": 103.8927, "flatTypes": { "3-room": { "firstTimer": 4.7, "secondTimer": 22.9 }, "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 } } },
+        { "town": "Toa Payoh", "projectName": "Bidadari Park View", "estateType": "mature", "lat": 1.3390, "lng": 103.8694, "flatTypes": { "4-room": { "firstTimer": 6.2, "secondTimer": 38.2 }, "5-room": { "firstTimer": 7.4, "secondTimer": 45.8 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Green", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 2.6, "secondTimer": 2.9 }, "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 } } },
+        { "town": "Pasir Ris", "projectName": "Pasir Ris 8", "estateType": "non-mature", "lat": 1.3721, "lng": 103.9494, "flatTypes": { "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 }, "5-room": { "firstTimer": 4.2, "secondTimer": 5.8 } } },
+        { "town": "Tengah", "projectName": "Plantation Village", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "2-room Flexi": { "firstTimer": 0.7, "singles": 8.4 }, "4-room": { "firstTimer": 3.5, "secondTimer": 4.8 }, "5-room": { "firstTimer": 4.2, "secondTimer": 5.8 } } }
+      ]
     },
     {
       "id": "2021-08", "label": "Aug 2021", "year": 2021,
-      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 35.1 }, "3-room": { "firstTimer": 4.4, "secondTimer": 21.1 }, "5-room": { "firstTimer": 7.0, "secondTimer": 42.1 } }, "non-mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 }, "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 }, "5-room": { "firstTimer": 3.8, "secondTimer": 5.4 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.9 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 35.1 }, "3-room": { "firstTimer": 4.4, "secondTimer": 21.1 }, "5-room": { "firstTimer": 7.0, "secondTimer": 42.1 } }, "non-mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 }, "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 }, "5-room": { "firstTimer": 3.8, "secondTimer": 5.4 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.9 } } },
+      "towns": [
+        { "town": "Bukit Merah", "projectName": "Bukit Merah Ridge", "estateType": "mature", "lat": 1.2819, "lng": 103.8239, "flatTypes": { "3-room": { "firstTimer": 4.4, "secondTimer": 21.1 }, "4-room": { "firstTimer": 5.8, "secondTimer": 35.1 } } },
+        { "town": "Hougang", "projectName": "Hougang Meadow", "estateType": "mature", "lat": 1.3721, "lng": 103.8927, "flatTypes": { "4-room": { "firstTimer": 5.8, "secondTimer": 35.1 }, "5-room": { "firstTimer": 7.0, "secondTimer": 42.1 } } },
+        { "town": "Choa Chu Kang", "projectName": "Choa Chu Kang Grove", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.6, "singles": 7.9 }, "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 } } },
+        { "town": "Jurong West", "projectName": "Jurong West Quarry", "estateType": "non-mature", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 }, "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 } } },
+        { "town": "Tengah", "projectName": "Forest Ridges", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 }, "5-room": { "firstTimer": 3.8, "secondTimer": 5.4 } } },
+        { "town": "Yishun", "projectName": "Yishun Boardwalk", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 2.4, "secondTimer": 2.7 }, "4-room": { "firstTimer": 3.2, "secondTimer": 4.5 }, "5-room": { "firstTimer": 3.8, "secondTimer": 5.4 } } }
+      ]
     },
     {
       "id": "2021-11", "label": "Nov 2021", "year": 2021,
-      "summary": { "mature": { "4-room": { "firstTimer": 7.2, "secondTimer": 42.3 }, "3-room": { "firstTimer": 5.4, "secondTimer": 25.4 }, "5-room": { "firstTimer": 8.6, "secondTimer": 51.0 }, "2-room Flexi": { "firstTimer": 1.8, "singles": 15.8 } }, "non-mature": { "4-room": { "firstTimer": 3.0, "secondTimer": 4.2 }, "3-room": { "firstTimer": 2.3, "secondTimer": 2.5 }, "5-room": { "firstTimer": 3.6, "secondTimer": 5.0 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.2 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 7.2, "secondTimer": 42.3 }, "3-room": { "firstTimer": 5.4, "secondTimer": 25.4 }, "5-room": { "firstTimer": 8.6, "secondTimer": 51.0 }, "2-room Flexi": { "firstTimer": 1.8, "singles": 15.8 } }, "non-mature": { "4-room": { "firstTimer": 3.0, "secondTimer": 4.2 }, "3-room": { "firstTimer": 2.3, "secondTimer": 2.5 }, "5-room": { "firstTimer": 3.6, "secondTimer": 5.0 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 7.2 } } },
+      "towns": [
+        { "town": "Ang Mo Kio", "projectName": "Ang Mo Kio Hills", "estateType": "mature", "lat": 1.3691, "lng": 103.8454, "flatTypes": { "4-room": { "firstTimer": 7.2, "secondTimer": 42.3 }, "5-room": { "firstTimer": 8.6, "secondTimer": 51.0 } } },
+        { "town": "Hougang", "projectName": "Hougang Citrine", "estateType": "mature", "lat": 1.3721, "lng": 103.8927, "flatTypes": { "3-room": { "firstTimer": 5.4, "secondTimer": 25.4 }, "4-room": { "firstTimer": 7.2, "secondTimer": 42.3 } } },
+        { "town": "Toa Payoh", "projectName": "Toa Payoh Apex", "estateType": "mature", "lat": 1.3343, "lng": 103.8474, "flatTypes": { "2-room Flexi": { "firstTimer": 1.8, "singles": 15.8 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Nature Loft", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 2.3, "secondTimer": 2.5 }, "4-room": { "firstTimer": 3.0, "secondTimer": 4.2 } } },
+        { "town": "Choa Chu Kang", "projectName": "Teck Whye Breeze", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.6, "singles": 7.2 }, "4-room": { "firstTimer": 3.0, "secondTimer": 4.2 }, "5-room": { "firstTimer": 3.6, "secondTimer": 5.0 } } }
+      ]
     },
     {
       "id": "2022-02", "label": "Feb 2022", "year": 2022,
-      "summary": { "mature": { "4-room": { "firstTimer": 3.9, "secondTimer": 28.4 }, "3-room": { "firstTimer": 2.9, "secondTimer": 17.0 }, "5-room": { "firstTimer": 4.7, "secondTimer": 34.1 } }, "non-mature": { "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "3-room": { "firstTimer": 1.7, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.6, "secondTimer": 3.7 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 6.1 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 3.9, "secondTimer": 28.4 }, "3-room": { "firstTimer": 2.9, "secondTimer": 17.0 }, "5-room": { "firstTimer": 4.7, "secondTimer": 34.1 } }, "non-mature": { "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "3-room": { "firstTimer": 1.7, "secondTimer": 1.9 }, "5-room": { "firstTimer": 2.6, "secondTimer": 3.7 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 6.1 } } },
+      "towns": [
+        { "town": "Hougang", "projectName": "Hougang Rooftop", "estateType": "mature", "lat": 1.3721, "lng": 103.8927, "flatTypes": { "3-room": { "firstTimer": 2.9, "secondTimer": 17.0 }, "4-room": { "firstTimer": 3.9, "secondTimer": 28.4 } } },
+        { "town": "Queenstown", "projectName": "Queensway Canopy", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 2.9, "secondTimer": 17.0 }, "4-room": { "firstTimer": 3.9, "secondTimer": 28.4 }, "5-room": { "firstTimer": 4.7, "secondTimer": 34.1 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Rise", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 1.7, "secondTimer": 1.9 }, "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 } } },
+        { "town": "Choa Chu Kang", "projectName": "Choa Chu Kang Ave 5", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.4, "singles": 6.1 }, "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 } } },
+        { "town": "Tengah", "projectName": "Plantation Creek", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "5-room": { "firstTimer": 2.6, "secondTimer": 3.7 } } },
+        { "town": "Yishun", "projectName": "Yishun Parcvista", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 1.7, "secondTimer": 1.9 }, "4-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "5-room": { "firstTimer": 2.6, "secondTimer": 3.7 } } }
+      ]
     },
     {
       "id": "2022-05", "label": "May 2022", "year": 2022,
-      "summary": { "mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.4, "secondTimer": 13.3 }, "5-room": { "firstTimer": 3.8, "secondTimer": 26.5 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.6 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.2 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 }, "3-room": { "firstTimer": 2.4, "secondTimer": 13.3 }, "5-room": { "firstTimer": 3.8, "secondTimer": 26.5 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.6 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.1 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.2 } } },
+      "towns": [
+        { "town": "Bishan", "projectName": "Bishan Towers II", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 }, "5-room": { "firstTimer": 3.8, "secondTimer": 26.5 } } },
+        { "town": "Bukit Merah", "projectName": "Bukit Merah Beacon", "estateType": "mature", "lat": 1.2819, "lng": 103.8239, "flatTypes": { "3-room": { "firstTimer": 2.4, "secondTimer": 13.3 }, "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 } } },
+        { "town": "Queenstown", "projectName": "Commonwealth Towers", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 2.4, "secondTimer": 13.3 }, "4-room": { "firstTimer": 3.2, "secondTimer": 22.1 } } },
+        { "town": "Choa Chu Kang", "projectName": "Choa Chu Kang Green", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.3, "singles": 5.2 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.6 } } },
+        { "town": "Sembawang", "projectName": "Sembawang Crest", "estateType": "non-mature", "lat": 1.4491, "lng": 103.8200, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 1.6 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.1 } } }
+      ]
     },
     {
       "id": "2022-08", "label": "Aug 2022", "year": 2022,
-      "summary": { "mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 18.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 11.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 22.7 } }, "non-mature": { "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 }, "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 4.5 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 2.8, "secondTimer": 18.9 }, "3-room": { "firstTimer": 2.1, "secondTimer": 11.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 22.7 } }, "non-mature": { "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 }, "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 4.5 } } },
+      "towns": [
+        { "town": "Kallang/Whampoa", "projectName": "Kallang Horizon", "estateType": "mature", "lat": 1.3148, "lng": 103.8641, "flatTypes": { "3-room": { "firstTimer": 2.1, "secondTimer": 11.3 }, "4-room": { "firstTimer": 2.8, "secondTimer": 18.9 } } },
+        { "town": "Queenstown", "projectName": "Queensway Canopy Phase 2", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 2.1, "secondTimer": 11.3 }, "4-room": { "firstTimer": 2.8, "secondTimer": 18.9 }, "5-room": { "firstTimer": 3.4, "secondTimer": 22.7 } } },
+        { "town": "Jurong West", "projectName": "Jurong West Bloom", "estateType": "non-mature", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 } } },
+        { "town": "Tengah", "projectName": "Parc Riviera", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.6 } } },
+        { "town": "Woodlands", "projectName": "Woodlands Rise", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "2-room Flexi": { "firstTimer": 0.3, "singles": 4.5 }, "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 } } },
+        { "town": "Yishun", "projectName": "Yishun Spring", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 1.1, "secondTimer": 1.3 }, "4-room": { "firstTimer": 1.5, "secondTimer": 2.2 }, "5-room": { "firstTimer": 1.8, "secondTimer": 2.6 } } }
+      ]
     },
     {
       "id": "2022-11", "label": "Nov 2022", "year": 2022,
-      "summary": { "mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 15.4 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.2 }, "5-room": { "firstTimer": 2.2, "secondTimer": 18.5 } }, "non-mature": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 3.8 } }, "notes": "Lowest rates in 3 years due to record 10,000-unit supply" }
+      "summary": { "mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 15.4 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.2 }, "5-room": { "firstTimer": 2.2, "secondTimer": 18.5 } }, "non-mature": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 3.8 } }, "notes": "Lowest rates in 3 years due to record 10,000-unit supply" },
+      "towns": [
+        { "town": "Kallang/Whampoa", "projectName": "Kallang Residences", "estateType": "mature", "lat": 1.3148, "lng": 103.8641, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 9.2 }, "4-room": { "firstTimer": 1.8, "secondTimer": 15.4 } } },
+        { "town": "Queenstown", "projectName": "Queensway Canopy Phase 3", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 9.2 }, "4-room": { "firstTimer": 1.8, "secondTimer": 15.4 }, "5-room": { "firstTimer": 2.2, "secondTimer": 18.5 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok West Ave 5", "estateType": "non-mature", "lat": 1.3488, "lng": 103.7513, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 } } },
+        { "town": "Choa Chu Kang", "projectName": "Choa Chu Kang Link", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.2, "singles": 3.8 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 } } },
+        { "town": "Pasir Ris", "projectName": "Pasir Ris Drive 3", "estateType": "non-mature", "lat": 1.3721, "lng": 103.9494, "flatTypes": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } },
+        { "town": "Tengah", "projectName": "Garden Vale", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } },
+        { "town": "Woodlands", "projectName": "Woodlands Glade", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 } } },
+        { "town": "Yishun", "projectName": "Yishun Captol", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } }
+      ]
     },
     {
       "id": "2023-02", "label": "Feb 2023", "year": 2023,
-      "summary": { "mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 19.4 } }, "non-mature": { "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 }, "3-room": { "firstTimer": 1.0, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 4.1 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 }, "3-room": { "firstTimer": 1.4, "secondTimer": 9.7 }, "5-room": { "firstTimer": 2.3, "secondTimer": 19.4 } }, "non-mature": { "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 }, "3-room": { "firstTimer": 1.0, "secondTimer": 1.1 }, "5-room": { "firstTimer": 1.6, "secondTimer": 2.3 }, "2-room Flexi": { "firstTimer": 0.2, "singles": 4.1 } } },
+      "towns": [
+        { "town": "Bedok", "projectName": "Bedok Horizon", "estateType": "mature", "lat": 1.3241, "lng": 103.9303, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 9.7 }, "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 } } },
+        { "town": "Bishan", "projectName": "Bishan Valley", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 }, "5-room": { "firstTimer": 2.3, "secondTimer": 19.4 } } },
+        { "town": "Queenstown", "projectName": "Dawson Estate", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 9.7 }, "4-room": { "firstTimer": 1.9, "secondTimer": 16.2 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Crest", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 1.0, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 } } },
+        { "town": "Choa Chu Kang", "projectName": "Choa Chu Kang Crest", "estateType": "non-mature", "lat": 1.3840, "lng": 103.7470, "flatTypes": { "2-room Flexi": { "firstTimer": 0.2, "singles": 4.1 }, "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 } } },
+        { "town": "Jurong West", "projectName": "Boon Lay Meadows", "estateType": "non-mature", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 }, "5-room": { "firstTimer": 1.6, "secondTimer": 2.3 } } },
+        { "town": "Woodlands", "projectName": "Woodlands North Spring", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 1.0, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.3, "secondTimer": 1.9 } } }
+      ]
     },
     {
       "id": "2023-05", "label": "May 2023", "year": 2023,
-      "summary": { "mature": { "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 }, "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "5-room": { "firstTimer": 5.4, "secondTimer": 39.4 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.0 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.8 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 6.8 } }, "notes": "High rate exercise, highest since mid-2021" }
+      "summary": { "mature": { "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 }, "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "5-room": { "firstTimer": 5.4, "secondTimer": 39.4 } }, "non-mature": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.0 }, "3-room": { "firstTimer": 1.6, "secondTimer": 1.8 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.6 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 6.8 } }, "notes": "High rate exercise, highest since mid-2021" },
+      "towns": [
+        { "town": "Bukit Merah", "projectName": "Bukit Merah Apex", "estateType": "mature", "lat": 1.2785, "lng": 103.8181, "flatTypes": { "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 } } },
+        { "town": "Geylang", "projectName": "Aljunied Crescent", "estateType": "mature", "lat": 1.3202, "lng": 103.8820, "flatTypes": { "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 } } },
+        { "town": "Queenstown", "projectName": "Margaret Drive Beacon", "estateType": "mature", "lat": 1.2980, "lng": 103.8042, "flatTypes": { "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 }, "5-room": { "firstTimer": 5.4, "secondTimer": 39.4 } } },
+        { "town": "Bedok", "projectName": "Bayshore Vista", "estateType": "mature", "lat": 1.3081, "lng": 103.9279, "flatTypes": { "3-room": { "firstTimer": 3.4, "secondTimer": 19.7 }, "4-room": { "firstTimer": 4.5, "secondTimer": 32.8 } } },
+        { "town": "Choa Chu Kang", "projectName": "Tengah Garden Walk", "estateType": "non-mature", "lat": 1.3698, "lng": 103.7440, "flatTypes": { "2-room Flexi": { "firstTimer": 0.3, "singles": 6.8 }, "4-room": { "firstTimer": 2.1, "secondTimer": 3.0 } } },
+        { "town": "Tengah", "projectName": "Parc Clover II", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 2.1, "secondTimer": 3.0 }, "5-room": { "firstTimer": 2.5, "secondTimer": 3.6 } } }
+      ]
     },
     {
       "id": "2023-08", "label": "Aug 2023", "year": 2023,
-      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 }, "3-room": { "firstTimer": 4.4, "secondTimer": 23.0 }, "5-room": { "firstTimer": 7.0, "secondTimer": 46.1 } }, "non-mature": { "4-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "3-room": { "firstTimer": 1.8, "secondTimer": 2.0 }, "5-room": { "firstTimer": 2.9, "secondTimer": 4.1 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 7.4 } }, "notes": "Serangoon mature 4-room: 9.4-13.8x" }
+      "summary": { "mature": { "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 }, "3-room": { "firstTimer": 4.4, "secondTimer": 23.0 }, "5-room": { "firstTimer": 7.0, "secondTimer": 46.1 } }, "non-mature": { "4-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "3-room": { "firstTimer": 1.8, "secondTimer": 2.0 }, "5-room": { "firstTimer": 2.9, "secondTimer": 4.1 }, "2-room Flexi": { "firstTimer": 0.4, "singles": 7.4 } }, "notes": "Serangoon mature 4-room: 9.4-13.8x" },
+      "towns": [
+        { "town": "Bishan", "projectName": "Bishan Green", "estateType": "mature", "lat": 1.3519, "lng": 103.8481, "flatTypes": { "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 }, "5-room": { "firstTimer": 7.0, "secondTimer": 46.1 } } },
+        { "town": "Hougang", "projectName": "Hougang Heritage", "estateType": "mature", "lat": 1.3721, "lng": 103.8927, "flatTypes": { "3-room": { "firstTimer": 4.4, "secondTimer": 23.0 }, "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 } } },
+        { "town": "Queenstown", "projectName": "Queensway Heights", "estateType": "mature", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "3-room": { "firstTimer": 4.4, "secondTimer": 23.0 }, "4-room": { "firstTimer": 5.8, "secondTimer": 38.4 } } },
+        { "town": "Serangoon", "projectName": "Serangoon North Ave 1", "estateType": "mature", "lat": 1.3639, "lng": 103.8723, "flatTypes": { "4-room": { "firstTimer": 11.6, "secondTimer": 38.4 } } },
+        { "town": "Bukit Batok", "projectName": "Bukit Batok Vista", "estateType": "non-mature", "lat": 1.3590, "lng": 103.7637, "flatTypes": { "3-room": { "firstTimer": 1.8, "secondTimer": 2.0 }, "4-room": { "firstTimer": 2.4, "secondTimer": 3.4 } } },
+        { "town": "Jurong West", "projectName": "Jurong West Crystal", "estateType": "non-mature", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "2-room Flexi": { "firstTimer": 0.4, "singles": 7.4 }, "4-room": { "firstTimer": 2.4, "secondTimer": 3.4 }, "5-room": { "firstTimer": 2.9, "secondTimer": 4.1 } } }
+      ]
     },
     {
       "id": "2023-11", "label": "Nov 2023", "year": 2023,
-      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 }, "3-room": { "firstTimer": 3.2, "secondTimer": 17.5 }, "5-room": { "firstTimer": 5.0, "secondTimer": 34.9 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.5 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.0 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.9 } } }
+      "summary": { "mature": { "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 }, "3-room": { "firstTimer": 3.2, "secondTimer": 17.5 }, "5-room": { "firstTimer": 5.0, "secondTimer": 34.9 } }, "non-mature": { "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "3-room": { "firstTimer": 1.4, "secondTimer": 1.5 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.0 }, "2-room Flexi": { "firstTimer": 0.3, "singles": 5.9 } } },
+      "towns": [
+        { "town": "Clementi", "projectName": "Clementi Peaks", "estateType": "mature", "lat": 1.3152, "lng": 103.7649, "flatTypes": { "3-room": { "firstTimer": 3.2, "secondTimer": 17.5 }, "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 }, "5-room": { "firstTimer": 5.0, "secondTimer": 34.9 } } },
+        { "town": "Kallang/Whampoa", "projectName": "Towner Residences", "estateType": "mature", "lat": 1.3148, "lng": 103.8641, "flatTypes": { "3-room": { "firstTimer": 3.2, "secondTimer": 17.5 }, "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 } } },
+        { "town": "Queenstown", "projectName": "Holland Village Edge", "estateType": "mature", "lat": 1.2980, "lng": 103.8042, "flatTypes": { "4-room": { "firstTimer": 4.2, "secondTimer": 29.1 }, "5-room": { "firstTimer": 5.0, "secondTimer": 34.9 } } },
+        { "town": "Tengah", "projectName": "Plantation Oasis", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "2-room Flexi": { "firstTimer": 0.3, "singles": 5.9 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.0 } } },
+        { "town": "Woodlands", "projectName": "Woodlands Straits", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 1.5 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 } } },
+        { "town": "Yishun", "projectName": "Yishun Glen", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 1.4, "secondTimer": 1.5 }, "4-room": { "firstTimer": 1.8, "secondTimer": 2.5 }, "5-room": { "firstTimer": 2.2, "secondTimer": 3.0 } } }
+      ]
     },
     {
       "id": "2024-02", "label": "Feb 2024", "year": 2024,
@@ -94,12 +218,27 @@
       "id": "2024-10", "label": "Oct 2024", "year": 2024,
       "classification": "SPP",
       "summary": { "standard": { "4-room": { "firstTimer": 2.8, "secondTimer": 24.5 }, "3-room": { "firstTimer": 2.1, "secondTimer": 12.3 }, "5-room": { "firstTimer": 3.4, "secondTimer": 29.4 }, "2-room Flexi": { "firstTimer": 1.4, "singles": 8.4 } }, "plus": { "4-room": { "firstTimer": 4.2, "secondTimer": 38.8 }, "5-room": { "firstTimer": 5.1, "secondTimer": 44.2 } }, "prime": { "4-room": { "firstTimer": 5.8, "secondTimer": 65.1 } } },
+      "towns": [
+        { "town": "Toa Payoh", "projectName": "Toa Payoh Apex", "estateType": "prime", "lat": 1.3318, "lng": 103.8490, "flatTypes": { "4-room": { "firstTimer": 5.8, "secondTimer": 65.1 } } },
+        { "town": "Queenstown", "projectName": "Queensway Canopy", "estateType": "plus", "lat": 1.2961, "lng": 103.7984, "flatTypes": { "4-room": { "firstTimer": 4.2, "secondTimer": 38.8 }, "5-room": { "firstTimer": 5.1, "secondTimer": 44.2 } } },
+        { "town": "Choa Chu Kang", "projectName": "Tengah Plantation Vale", "estateType": "standard", "lat": 1.3698, "lng": 103.7440, "flatTypes": { "2-room Flexi": { "firstTimer": 1.4, "singles": 8.4 }, "4-room": { "firstTimer": 2.8, "secondTimer": 24.5 } } },
+        { "town": "Jurong West", "projectName": "Boon Lay Glade", "estateType": "standard", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "3-room": { "firstTimer": 2.1, "secondTimer": 12.3 }, "4-room": { "firstTimer": 2.8, "secondTimer": 24.5 } } },
+        { "town": "Woodlands", "projectName": "Woodlands South Edge", "estateType": "standard", "lat": 1.4292, "lng": 103.7857, "flatTypes": { "3-room": { "firstTimer": 2.1, "secondTimer": 12.3 }, "4-room": { "firstTimer": 2.8, "secondTimer": 24.5 }, "5-room": { "firstTimer": 3.4, "secondTimer": 29.4 } } }
+      ],
       "notes": "First exercise under Standard/Plus/Prime classification. Standard ≈ old non-mature, Plus ≈ old mature with restrictions, Prime = most central with tightest resale rules."
     },
     {
       "id": "2025-02", "label": "Feb 2025", "year": 2025,
       "classification": "SPP",
       "summary": { "standard": { "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 }, "3-room": { "firstTimer": 0.7, "secondTimer": 0.8 }, "5-room": { "firstTimer": 1.7, "secondTimer": 14.8 }, "2-room Flexi": { "firstTimer": 0.6, "singles": 4.8 } }, "plus": { "4-room": { "firstTimer": 1.9, "secondTimer": 20.4 } }, "prime": { "4-room": { "firstTimer": 2.8, "secondTimer": 38.2 } } },
+      "towns": [
+        { "town": "Bukit Merah", "projectName": "Bukit Merah Ridge", "estateType": "prime", "lat": 1.2785, "lng": 103.8181, "flatTypes": { "4-room": { "firstTimer": 2.8, "secondTimer": 38.2 } } },
+        { "town": "Ang Mo Kio", "projectName": "Ang Mo Kio Crescent", "estateType": "plus", "lat": 1.3691, "lng": 103.8454, "flatTypes": { "4-room": { "firstTimer": 1.9, "secondTimer": 20.4 } } },
+        { "town": "Choa Chu Kang", "projectName": "Tengah Plantation Woods", "estateType": "standard", "lat": 1.3698, "lng": 103.7440, "flatTypes": { "2-room Flexi": { "firstTimer": 0.6, "singles": 4.8 }, "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 } } },
+        { "town": "Jurong West", "projectName": "Jurong West Plains", "estateType": "standard", "lat": 1.3404, "lng": 103.7090, "flatTypes": { "3-room": { "firstTimer": 0.7, "secondTimer": 0.8 }, "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 } } },
+        { "town": "Woodlands", "projectName": "Woodlands North Spring", "estateType": "standard", "lat": 1.4458, "lng": 103.7900, "flatTypes": { "3-room": { "firstTimer": 0.7, "secondTimer": 0.8 }, "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 }, "5-room": { "firstTimer": 1.7, "secondTimer": 14.8 } } },
+        { "town": "Yishun", "projectName": "Yishun Glades", "estateType": "standard", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 0.7, "secondTimer": 0.8 }, "4-room": { "firstTimer": 1.4, "secondTimer": 12.3 }, "5-room": { "firstTimer": 1.7, "secondTimer": 14.8 } } }
+      ],
       "notes": "Rates significantly lower. Median first-timer rate ~1.0 across standard estates."
     }
   ]

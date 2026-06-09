@@ -1,7 +1,7 @@
 import rawData from "@/data/exercises.json";
 import type { BtoExercise, FlatType, EstateType, ApplicantType } from "./types";
 
-export const allExercises: BtoExercise[] = rawData.exercises as BtoExercise[];
+export const allExercises: BtoExercise[] = rawData.exercises as unknown as BtoExercise[];
 
 export function getExercise(id: string): BtoExercise | undefined {
   return allExercises.find((ex) => ex.id === id);
