@@ -164,9 +164,11 @@ export default function MapPage() {
                 >
                   <div className="flex items-start justify-between mb-2">
                     <div>
-                      <p className="text-sm font-semibold text-white">{p.town}</p>
+                      <p className="text-sm font-semibold text-white">
+                        {(p as { projectName?: string }).projectName ?? p.town}
+                      </p>
                       <p className="text-xs text-slate-500">
-                        {ESTATE_LABELS[p.estateType] ?? p.estateType}
+                        {p.town} · {ESTATE_LABELS[p.estateType] ?? p.estateType}
                       </p>
                     </div>
                     {avgRate != null && (

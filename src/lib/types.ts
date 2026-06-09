@@ -15,6 +15,9 @@ export interface BtoExercise {
 export interface BtoProject {
   town: string;
   estateType: string;
+  projectName?: string;   // e.g. "Queensway Canopy"
+  lat?: number;           // precise project site latitude
+  lng?: number;           // precise project site longitude
   flatTypes: {
     [flatType: string]: FlatTypeRates;
   };
