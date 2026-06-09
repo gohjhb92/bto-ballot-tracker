@@ -35,6 +35,12 @@ function Nav() {
             Exercises
           </Link>
           <Link
+            href="/map"
+            className="px-3 py-1.5 text-sm text-slate-400 hover:text-white transition-colors rounded-lg hover:bg-[#1e293b]"
+          >
+            Map
+          </Link>
+          <Link
             href="/current"
             className="px-3 py-1.5 text-sm text-slate-400 hover:text-white transition-colors rounded-lg hover:bg-[#1e293b]"
           >
