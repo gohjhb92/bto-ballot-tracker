@@ -83,7 +83,12 @@ export default function ComparePage() {
           label="Applicant Type"
           options={APPLICANT_TYPES}
           value={applicantType}
-          onChange={setApplicantType}
+          onChange={(v) => {
+            setApplicantType(v);
+            // Singles → lock to 2-room Flexi; leaving singles → reset flat type
+            if (v === "singles") setFlatType("2-room Flexi");
+            if (v !== "singles" && flatType === "2-room Flexi") setFlatType("4-room");
+          }}
           displayLabels={APPLICANT_LABELS}
         />
       </div>

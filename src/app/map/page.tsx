@@ -40,8 +40,9 @@ const sortedExercises = [...allExercises].sort((a, b) =>
 
 const FLAT_TYPES = ["4-room", "3-room", "5-room", "2-room Flexi"] as const;
 const APPLICANT_TYPES = [
-  { value: "firstTimer", label: "1st Timer" },
-  { value: "singles",    label: "Singles" },
+  { value: "firstTimer",  label: "1st Timer" },
+  { value: "secondTimer", label: "2nd Timer" },
+  { value: "singles",     label: "Singles" },
 ] as const;
 
 // ── Exercise tab ────────────────────────────────────────────────────────────
@@ -211,7 +212,7 @@ export default function MapPage() {
 
                   return (
                     <div
-                      key={p.town}
+                      key={`${p.town}-${p.estateType}`}
                       className="bg-[#1e293b] border border-[#334155] rounded-xl p-4"
                     >
                       <div className="flex items-start justify-between mb-2">
@@ -238,6 +239,7 @@ export default function MapPage() {
                             firstTimer?: number;
                             secondTimer?: number;
                             singles?: number;
+                            seniors?: number;
                           };
                           return (
                             <div
@@ -245,23 +247,25 @@ export default function MapPage() {
                               className="flex items-center justify-between text-xs"
                             >
                               <span className="text-slate-400">{ft}</span>
-                              <div className="flex gap-2">
+                              <div className="flex gap-2 flex-wrap justify-end">
                                 {r.firstTimer != null && (
-                                  <span
-                                    className="font-mono"
-                                    style={{
-                                      color:
-                                        COMPETITION_COLORS[
-                                          competitionLevel(r.firstTimer)
-                                        ],
-                                    }}
-                                  >
-                                    {formatRate(r.firstTimer)}
+                                  <span className="font-mono" style={{ color: COMPETITION_COLORS[competitionLevel(r.firstTimer)] }}>
+                                    1st {formatRate(r.firstTimer)}
                                   </span>
                                 )}
                                 {r.secondTimer != null && (
-                                  <span className="text-slate-600 font-mono">
+                                  <span className="text-slate-500 font-mono">
                                     2nd {formatRate(r.secondTimer)}
+                                  </span>
+                                )}
+                                {r.singles != null && (
+                                  <span className="font-mono" style={{ color: COMPETITION_COLORS[competitionLevel(r.singles)] }}>
+                                    SC {formatRate(r.singles)}
+                                  </span>
+                                )}
+                                {r.seniors != null && (
+                                  <span className="text-slate-500 font-mono">
+                                    Sr {formatRate(r.seniors)}
                                   </span>
                                 )}
                               </div>

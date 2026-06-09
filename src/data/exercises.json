@@ -136,7 +136,7 @@
         { "town": "Pasir Ris", "projectName": "Pasir Ris Drive 3", "estateType": "non-mature", "lat": 1.3721, "lng": 103.9494, "flatTypes": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } },
         { "town": "Tengah", "projectName": "Garden Vale", "estateType": "non-mature", "lat": 1.3740, "lng": 103.7372, "flatTypes": { "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } },
         { "town": "Woodlands", "projectName": "Woodlands Glade", "estateType": "non-mature", "lat": 1.4382, "lng": 103.7890, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 } } },
-        { "town": "Yishun", "projectName": "Yishun Captol", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } }
+        { "town": "Yishun", "projectName": "Yishun Capitol", "estateType": "non-mature", "lat": 1.4304, "lng": 103.8354, "flatTypes": { "3-room": { "firstTimer": 0.9, "secondTimer": 1.1 }, "4-room": { "firstTimer": 1.2, "secondTimer": 1.8 }, "5-room": { "firstTimer": 1.4, "secondTimer": 2.2 } } }
       ]
     },
     {

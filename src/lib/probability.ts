@@ -11,14 +11,16 @@ export function oddsPerTry(rate: number): number {
 }
 
 export function cumulativeOdds(rate: number, tries: number): number {
+  if (rate <= 1) return 1; // guaranteed on first try — consistent with oddsPerTry
   const p = Math.min(0.99, 1 / rate);
   return 1 - Math.pow(1 - p, tries);
 }
 
 export function triesForTarget(rate: number, target: number): number {
   if (rate <= 1) return 1;
+  const safeTarget = Math.min(target, 0.999); // prevent log(0) when target ≥ 1
   const p = Math.min(0.99, 1 / rate);
-  return Math.ceil(Math.log(1 - target) / Math.log(1 - p));
+  return Math.ceil(Math.log(1 - safeTarget) / Math.log(1 - p));
 }
 
 export function competitionLevel(rate: number): CompetitionLevel {
