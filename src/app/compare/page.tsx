@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { allExercises } from "@/lib/data";
 import { buildTrendData, competitionLevel, recentAverageRate } from "@/lib/probability";
-import { COMPETITION_COLORS, COMPETITION_LABEL, ESTATE_LABELS, formatRate } from "@/lib/utils";
+import { COMPETITION_COLORS, COMPETITION_LABEL, ESTATE_LABELS, APPLICANT_LABELS, formatRate } from "@/lib/utils";
 import TrendChart from "@/components/TrendChart";
 import type { ApplicantType, EstateType, FlatType } from "@/lib/types";
 
@@ -30,11 +30,13 @@ export default function ComparePage() {
     value,
     onChange,
     label,
+    displayLabels,
   }: {
     options: T[];
     value: T;
     onChange: (v: T) => void;
     label: string;
+    displayLabels?: Record<string, string>;
   }) {
     return (
       <div>
@@ -50,7 +52,7 @@ export default function ComparePage() {
                   : "bg-[#0b1120] border border-[#334155] text-slate-300 hover:border-slate-500"
               }`}
             >
-              {o}
+              {displayLabels?.[o] ?? o}
             </button>
           ))}
         </div>
@@ -82,6 +84,7 @@ export default function ComparePage() {
           options={APPLICANT_TYPES}
           value={applicantType}
           onChange={setApplicantType}
+          displayLabels={APPLICANT_LABELS}
         />
       </div>
 
@@ -136,7 +139,7 @@ export default function ComparePage() {
               <TrendChart
                 key={c.estateType}
                 data={c.trend}
-                title={`${ESTATE_LABELS[c.estateType]} — ${flatType}`}
+                title={`${ESTATE_LABELS[c.estateType]} — ${flatType} — ${APPLICANT_LABELS[applicantType] ?? applicantType}`}
               />
             ))}
           </div>
